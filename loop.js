@@ -79,3 +79,15 @@ const numbers = [10, 20, 5, 21, 33];
 //   }
 //   num++;
 // }
+
+// let num = 0;
+// let sum = 0;
+
+// while (num <= 50) {
+//   if (num % 3 === 0 && num % 2 === 0) {
+//     sum = sum + num;
+//     console.log(num);
+//   }
+//   num++;
+// }
+// console.log("total", sum);
