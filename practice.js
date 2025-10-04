@@ -170,5 +170,8 @@ const price = 1000;
 //   : console.log(`your ar pay ${payment}`);
 
 const numbers = [10, 20, 30, 40];
-numbers.push(45);
+// numbers.push(45);
+// numbers.pop();
+// numbers.unshift(33);
+numbers.shift();
 console.log(numbers);
