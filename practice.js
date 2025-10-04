@@ -142,8 +142,8 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
-const age = 60;
-const price = 1000;
+// const age = 60;
+// const price = 1000;
 // if (age < 10) {
 //   console.log("your ticket free");
 // } else if (age < 18) {
@@ -169,9 +169,29 @@ const price = 1000;
 //   ? console.log("your ticket is free")
 //   : console.log(`your ar pay ${payment}`);
 
-const numbers = [10, 20, 30, 40];
-// numbers.push(45);
-// numbers.pop();
-// numbers.unshift(33);
-numbers.shift();
-console.log(numbers);
+// const numbers = [10, 20, 30, 40];
+// // numbers.push(45);
+// // numbers.pop();
+// // numbers.unshift(33);
+// numbers.shift();
+// console.log(numbers);
+
+// const friends = ["korim", "rohim", "kairul", "solim"];
+// console.log(friends.includes("Korim"));
+
+// const fruits = ["apple", "mango", "jackfruit", "orange", "banana"];
+// // console.log(fruits[2]);
+// fruits[1] = "jumbura";
+// console.log(fruits);
+
+// const tourist = ["sajek velly", "cox bazar", "bandorban", "sundorban"];
+// tourist.push("tanguar hour", "kagrachori");
+// tourist.pop();
+// console.log(tourist);
+
+const books = ["bangla", "english", "math", "physics"];
+const tourist = ["sajek velly", "cox bazar", "bandorban", "sundorban"];
+const newArray = books.concat(tourist);
+console.log(newArray);
+
+// console.log(books.includes("bangla"));
