@@ -19,13 +19,28 @@
 
 // Display the physics marks as output.
 
-const student = {
-  name: "Hamim Sakep",
-  id: 5421,
-  physics: {
-    subject: "HSC Physics",
-    author: "Shahjahan Tapan",
-    marks: 30,
-  },
+// const student = {
+//   name: "Hamim Sakep",
+//   id: 5421,
+//   physics: {
+//     subject: "HSC Physics",
+//     author: "Shahjahan Tapan",
+//     marks: 30,
+//   },
+// };
+// console.log(student.physics.marks);
+// Count the number of properties.
+
+let student = {
+  name: "Ariana Grande",
+  age: 21,
+  city: "Gaibandha",
+  isStudent: true,
 };
-console.log(student.physics.marks);
+
+// for (const students in student) {
+//   console.log(students.length);
+// }
+
+const key = Object.keys(student);
+console.log(key.length);
