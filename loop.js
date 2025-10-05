@@ -91,3 +91,33 @@ const numbers = [10, 20, 5, 21, 33];
 //   num++;
 // }
 // console.log("total", sum);
+
+// const country = "Bangladesh";
+// console.log(country.slice(0, 3));
+
+// const sentence = "Bangladesh is beautifully";
+
+// console.log(sentence.split("a"));
+
+// const country1 = ["bangladesh", "india"];
+// console.log(country1.join(" ?"));
+
+// const sentence = "i love bangladesh";
+// let reverse = "";
+// for (sen of sentence) {
+//   reverse = sen + reverse;
+//   console.log(sen);
+// }
+
+// console.log(reverse);
+
+const mobile = {
+  name: "samsung",
+  battery: "5000",
+  camera: "15mp",
+  screen: "5inch",
+};
+
+for (const prop in mobile) {
+  console.log(mobile[prop]);
+}
