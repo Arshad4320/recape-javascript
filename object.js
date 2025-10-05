@@ -9,10 +9,23 @@
 
 // For this object below add a property named passenger capacity with value 5
 
-const car = {
-  make: "Toyota",
-  model: "Corolla",
-  year: 2020,
+// const car = {
+//   make: "Toyota",
+//   model: "Corolla",
+//   year: 2020,
+// };
+// car.passenger = 5;
+// console.log(car);
+
+// Display the physics marks as output.
+
+const student = {
+  name: "Hamim Sakep",
+  id: 5421,
+  physics: {
+    subject: "HSC Physics",
+    author: "Shahjahan Tapan",
+    marks: 30,
+  },
 };
-car.passenger = 5;
-console.log(car);
+console.log(student.physics.marks);
