@@ -49,5 +49,3 @@
 // }
 
 // console.log(newStr);
-const str = "Capitalize Every first Letter of each word in a String";
-console.log(str.titleCase());
