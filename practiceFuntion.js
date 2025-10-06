@@ -48,3 +48,16 @@
 // }
 // const number = numberTypeCheck(11);
 // console.log(number);
+
+function duplicateCheck(number) {
+  const filteredNumber = [];
+  for (const num of number) {
+    if (filteredNumber.includes(num) === false) {
+      filteredNumber.push(num);
+    }
+  }
+  return filteredNumber;
+}
+const numbers = [10, 34, 45, 55, 43, 44, 45, 44];
+const result = duplicateCheck(numbers);
+console.log(result);
