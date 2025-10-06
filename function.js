@@ -14,14 +14,14 @@
 // }
 // stringSize("Bangladesh");
 // stringSize("India");
-let a = 0;
-function add(number) {
-  for (const num of number) {
-    a = a + num;
-  }
-  return a;
-}
+// let a = 0;
+// function add(number) {
+//   for (const num of number) {
+//     a = a + num;
+//   }
+//   return a;
+// }
 
-const addedNumber = [10, 20, 30, 40, 50];
-const total = add(addedNumber);
-console.log(total);
+// const addedNumber = [10, 20, 30, 40, 50];
+// const total = add(addedNumber);
+// console.log(total);
