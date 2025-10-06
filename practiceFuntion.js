@@ -26,3 +26,25 @@
 // const numbers = [10, 20, 30, 40, 50];
 // avg(numbers);
 // console.log(a);
+// Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+// let count = 0;
+// function binaryZero(zero) {
+//   for (const z of zero) {
+//     if (z === "0") {
+//       count++;
+//     }
+//   }
+// }
+// const countZero = binaryZero("10101010");
+// console.log(count);
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
+
+// function numberTypeCheck(number) {
+//   if (number % 2 === 0) {
+//     return "this number is even number";
+//   } else {
+//     return "this number is odd number";
+//   }
+// }
+// const number = numberTypeCheck(11);
+// console.log(number);
