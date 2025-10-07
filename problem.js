@@ -29,18 +29,39 @@
 // Your task is to calculate the total budget required to buy electronics:
 // Write a JavaScript function named calculateElectronicsBudget that takes in the number of laptop, tablets, and mobile and returns the total money required.
 
-function calculateElectronicsBudget(
-  laptopQuantity,
-  tabletQuantity,
-  mobileQuantity
-) {
-  const laptop = 35000;
-  const tablet = 15000;
-  const mobile = 20000;
-  const laptopPrice = laptopQuantity * laptop;
-  const tabletPrice = tabletQuantity * tablet;
-  const mobilePrice = mobileQuantity * mobile;
-  const totalPrice = laptopPrice + tabletPrice + mobilePrice;
-  return totalPrice;
+// function calculateElectronicsBudget(
+//   laptopQuantity,
+//   tabletQuantity,
+//   mobileQuantity
+// ) {
+//   const laptop = 35000;
+//   const tablet = 15000;
+//   const mobile = 20000;
+//   const laptopPrice = laptopQuantity * laptop;
+//   const tabletPrice = tabletQuantity * tablet;
+//   const mobilePrice = mobileQuantity * mobile;
+//   const totalPrice = laptopPrice + tabletPrice + mobilePrice;
+//   return totalPrice;
+// }
+// console.log(calculateElectronicsBudget(1, 2, 3));
+
+// You are given an array of phone objects, each containing information about the model, brand, and price. Your task is to write a JavaScript function named findAveragePhonePrice that takes this array as input and returns the average price of phone.
+
+const phones = [
+  { model: "PhoneA", brand: "Iphone", price: 95000 },
+  { model: "PhoneB", brand: "Samsung", price: 40000 },
+  { model: "PhoneC", brand: "Oppo", price: 26000 },
+  { model: "PhoneD", brand: "Nokia", price: 35000 },
+  { model: "PhoneE", brand: "Iphone", price: 105000 },
+  { model: "PhoneF", brand: "HTC", price: 48000 },
+];
+function averagePriceOfPhone(phone) {
+  let averagePrice = 0;
+  for (pho of phone) {
+    console.log(phone.length);
+    averagePrice = averagePrice + pho.price / phone.length;
+  }
+  return averagePrice;
 }
-console.log(calculateElectronicsBudget(1, 2, 3));
+
+console.log(averagePriceOfPhone(phones));
