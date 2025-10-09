@@ -39,3 +39,13 @@
 // }
 // text(name);
 // console.log(name);
+
+const person = {
+  name: "arshad",
+  age: 25,
+  status: true,
+  live: "bangladesh",
+};
+const newPerson = JSON.stringify(person);
+const oldPerson = JSON.parse(newPerson);
+console.log(oldPerson);
