@@ -23,12 +23,19 @@
 // result();
 
 //callback function ;
-function callback(fn, name) {
-  fn();
-  console.log(name);
-}
+// function callback(fn, name) {
+//   fn();
+//   console.log(name);
+// }
 
-function fn() {
-  console.log("say hello");
-}
-callback(fn, "arshad");
+// function fn() {
+//   console.log("say hello");
+// }
+// callback(fn, "arshad");
+// let name = "arshad";
+// function text(text) {
+//   text = "rashed";
+//   console.log(text);
+// }
+// text(name);
+// console.log(name);
